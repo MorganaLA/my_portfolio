@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond';
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.postimg.cc/J4kVQq6j/Picsart-22-09-10-18-04-24-266-1.jpg);
+    background-size: cover;
+  }
