@@ -28,7 +28,7 @@ header {
 #menuDiv:hover {
     transform: scale(3);
     transform-origin: top right;
-    transition: 2s;
+    transition: 1.5s;
     background: #d6b3c7b0;
     border-radius: 0 0 0 20%;
     width: 5.5rem;
@@ -97,3 +97,59 @@ header {
     text-align: center;
     font-size: 1.8rem;
 }
+
+.imgSocMed{
+    width: 3rem;
+}
+
+#sMenu{
+    display: contents;
+    transform: scale(0);
+    list-style: none;
+    visibility: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+#socialM{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#socialMenu{
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.6rem;
+    background: #DA6376;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#socialMenu:hover{
+    transform: scaleX(1);
+    transition: all 1.5s ease-out;
+    background: #417c8c79;
+    border-radius: 30%;
+    width: 11rem;
+}
+#socialMenu:hover>#menuImg{
+    width: 3rem;
+}
+  
+#socialMenu:hover>#sMenu{
+    padding: 0.8rem;
+    transform: scaleX(1);
+    transition: 2.5s;
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    transform-origin: center left;
+}
+
+#socialMenu:hover>#sMenu>li{
+    width: 3rem;
+}
+  
+  
