@@ -98,58 +98,79 @@ header {
     font-size: 1.8rem;
 }
 
-.imgSocMed{
-    width: 3rem;
+#socialM {
+    margin-left: 7.9rem;
 }
 
-#sMenu{
-    display: contents;
-    transform: scale(0);
-    list-style: none;
-    visibility: collapse;
-    margin: 0;
-    padding: 0;
+#socialMenu a {
+    text-decoration: none;
+    color: inherit;
 }
 
-#socialM{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#socialMenu{
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 0.6rem;
-    background: #DA6376;
-    border-radius: 50%;
+#socialMenu {
+    border-radius: 30%;
+    padding-right: 0.5rem;
+    height: 3.5rem;
     display: flex;
     align-items: center;
 }
 
-#socialMenu:hover{
-    transform: scaleX(1);
-    transition: all 1.5s ease-out;
-    background: #417c8c79;
-    border-radius: 30%;
-    width: 11rem;
-}
-#socialMenu:hover>#menuImg{
-    width: 3rem;
-}
-  
-#socialMenu:hover>#sMenu{
-    padding: 0.8rem;
-    transform: scaleX(1);
-    transition: 2.5s;
-    display: flex;
-    visibility: visible;
-    flex-direction: row;
-    transform-origin: center left;
+.menuImg {
+    background-color: #da6377ea;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    z-index: 10;
 }
 
-#socialMenu:hover>#sMenu>li{
-    width: 3rem;
+.sIcon {
+    display: block;
+    padding-left: 0.5rem;
+    padding-top: 0.65rem;
+    padding-right: 0.1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 !important;
 }
-  
-  
+
+.menu:checked+.menuImg {
+    border-radius: 50%;
+    background-color: #39646ee8;
+    transition-duration: 0.2s;
+}
+
+.menu {
+    display: none;
+}
+
+.socialNet {
+    background-color: #39646e98;
+    width: 9.6rem;
+    height: 3.3rem;
+    margin-left: -1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0% 20% 20% 0%;
+    justify-content: flex-end;
+    transform: scaleX(0);
+    transition: transform;
+    transition-duration: 0.5s;
+    transform-origin: left;
+}
+
+.socNetImg {
+    width: 2.2rem;
+    margin: 0 0.4rem 0 0;
+}
+
+.menu:checked~.socialNet {
+    transform: scaleX(1);
+}
+
+.socNetImg:hover {
+    border-radius: 15%;
+    background-color: #ffffff8f;
+    box-shadow: -2px 2px 4px 0px #ffffff8f;
+    transform: scale(1.2) translate(3%, -3%);
+    transition-duration: 0.3s;
+}
