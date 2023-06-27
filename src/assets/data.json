@@ -1,0 +1,160 @@
+{
+    "data": {
+        "studies": [
+            {
+                "id": 1,
+                "instituiton": "C.E.N.M.A Villa General Belgrano",
+                "title": "General Certificate of Secondary Education (GCSE)",
+                "description": "",
+                "year": "2016",
+                "img": ""
+            },
+            {
+                "id": 2,
+                "instituiton": "EducaciónIT",
+                "title": "HTML5: Web Fundamentals",
+                "description": "",
+                "year": "2021",
+                "img": ""
+            },
+            {
+                "id": 3,
+                "instituiton": "Argentina Programa 4.0 #YoProgramo",
+                "title": "Full Stack Developer Jr",
+                "description": "The training course titled 'Web Full Stack Junior Profile' is offered under the 'Argentina Programa 4.0' Plan.",
+                "year": "2022 - 2023",
+                "img": ""
+            },
+            {
+                "id": 4,
+                "instituiton": "University Language Center",
+                "title": "English Course: Level 8",
+                "description": "Level 8 English Course at the University Language Center for Software Developers, based on the B1.2 level of the Common European Framework of Reference for Languages (CEFR), as part of the 'Argentina Programa 4.0' Plan.",
+                "year": "2022",
+                "img": ""
+            },
+            {
+                "id": 5,
+                "instituiton": "MindHub",
+                "title": "Bootcamp Front-End Web Developer",
+                "description": "",
+                "year": "2023",
+                "img": ""
+            }
+        ],
+        "skills": [
+            {
+                "skill": [
+                    {
+                        "id": 1,
+                        "name": "Git",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 2,
+                        "name": "GitHub",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 3,
+                        "name": "HTML5",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 4,
+                        "name": "CSS",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 5,
+                        "name": "Bootstrap",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 6,
+                        "name": "Responsive Design",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 7,
+                        "name": "JavaScript",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 8,
+                        "name": "TypeScript",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 9,
+                        "name": "Angular",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 10,
+                        "name": "JAVA",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 11,
+                        "name": "Spring Boot",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 12,
+                        "name": "MySQL",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 13,
+                        "name": "Agile (SCRUM",
+                        "porcentage": ""
+                    },
+                    {
+                        "id": 14,
+                        "name": "Problem-Solving",
+                        "porcentage": ""
+                    }
+                ],
+                "lenguage": [
+                    {
+                        "id": 1,
+                        "name": "Spanish",
+                        "level": "Native"
+                    },
+                    {
+                        "id": 2,
+                        "name": "English",
+                        "level": "Advanced"
+                    }
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "name": "",
+                "description": "",
+                "technologies": "",
+                "year": "",
+                "img": ""
+            },
+            {
+                "id": 1,
+                "name": "",
+                "description": "",
+                "technologies": "",
+                "year": "",
+                "img": ""
+            },
+            {
+                "id": 1,
+                "name": "",
+                "description": "",
+                "technologies": "",
+                "year": "",
+                "img": ""
+            }
+        ]
+    }
+}
