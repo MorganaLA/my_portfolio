@@ -1,52 +1,116 @@
 #studiesSection {
-    margin-top: 8rem;
+    margin-top: 4.3rem;
     width: 100%;
 }
 
 #studiesSection>h3 {
-    background-color: #ffffff38;
+    background-color: #ffffff5e;
     text-align: center;
-    margin: auto;
+    margin: 0 auto 2rem;
     width: 12%;
     font-size: 2.6rem;
     border-radius: 15%;
     padding: 1rem;
 }
 
-.card-group {
-    margin: 1rem 2rem;
-    background-color: transparent
+.group {
+    gap: 1rem 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: transparent;
+    justify-items: center;
 }
 
 .card {
-    background-color: #ffffff38;
-    border-radius: 12%;
-    width: 25%;
-    margin: 1rem;
-    height: 30rem;
+    position: relative;
+    background-color: #ffffff5e;
+    width: 90%;
+    height: fit-content;
+    padding: 1rem 0 0.5rem;
     text-align: center;
-    flex: unset !important;
+    border-radius: 10%;
 }
 
-.card-img-top{
+.card-img-top {
     width: auto;
-    height: 40%;
+    height: 8rem;
     margin: auto;
 }
 
 .card-body {
-    background-color: #ffffff38;
-    height: 40%;
-    padding: 0 1rem;
-    border-radius: 0% 0% 15% 15%;
+    display: flex;
+    height: unset;
+    padding: 0;
+    flex-direction: column;
 }
-.card-title{
-    font-size: 2rem;
+
+.card-title {
+    background-color: #39646ecc;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    height: 5.7rem;
+    padding: 1rem;
+    display: flex;
+    color: #d6b3c7;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    margin-bottom: 0;
+}
+
+.titleS {
+    font-size: 1.36rem;
+    font-weight: bolder;
+    background-color: #d6b3c7b0;
+    text-align: center;
+    color: #2e525b;
+    padding: 1rem 0.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .description {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, transition-delay 0.3s;
+    background-color: #ffffff38;
+  }
+  
+  .card:hover .description {
+    max-height: 20rem; 
+    transition: max-height 0.5s ease;
+    background-color: #ffffff38;
+  }
+  
+
+.descriptionS {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
-.card-text{
+
+.cardFoot>p {
+    display: flex;
+    font-weight: bold;
     font-size: 1.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
 }
-.description{
-    text-align: start;
+
+.desTStud {
+    background-color: #ffffff38;
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
 }

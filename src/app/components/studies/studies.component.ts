@@ -16,7 +16,7 @@ export class StudiesComponent implements OnInit{
 
   getData(){
     this.data.studies().subscribe( 
-      response => {console.log(response)},
+      response => {this.studies = response.data.studies},
       error => {console.log(error)}
     )
   }
