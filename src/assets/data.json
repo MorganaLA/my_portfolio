@@ -3,43 +3,35 @@
         "studies": [
             {
                 "id": 1,
-                "instituiton": "C.E.N.M.A Villa General Belgrano",
-                "title": "General Certificate of Secondary Education (GCSE)",
-                "description": "",
-                "year": "2016",
-                "img": ""
+                "instituiton": "EducaciónIT",
+                "title": "HTML5: Web Fundamentals",
+                "description": "This course focuses on completely mastering the Internet's native markup language (HTML) and providing the necessary skills to enter the world of web design.",
+                "year": "2021",
+                "img": "https://i.postimg.cc/3rVj3kCm/Educacion-IT-logo.png"
             },
             {
                 "id": 2,
-                "instituiton": "EducaciónIT",
-                "title": "HTML5: Web Fundamentals",
-                "description": "",
-                "year": "2021",
-                "img": ""
-            },
-            {
-                "id": 3,
                 "instituiton": "Argentina Programa 4.0 #YoProgramo",
                 "title": "Full Stack Developer Jr",
                 "description": "The training course titled 'Web Full Stack Junior Profile' is offered under the 'Argentina Programa 4.0' Plan.",
                 "year": "2022 - 2023",
-                "img": ""
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1687991636/portfolio/download__1_-removebg-preview_jmlx0i.png"
             },
             {
-                "id": 4,
+                "id": 3,
                 "instituiton": "University Language Center",
                 "title": "English Course: Level 8",
                 "description": "Level 8 English Course at the University Language Center for Software Developers, based on the B1.2 level of the Common European Framework of Reference for Languages (CEFR), as part of the 'Argentina Programa 4.0' Plan.",
                 "year": "2022",
-                "img": ""
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1687991635/portfolio/cui-removebg-preview_ffbxez.png"
             },
             {
-                "id": 5,
+                "id": 4,
                 "instituiton": "MindHub",
                 "title": "Bootcamp Front-End Web Developer",
-                "description": "",
+                "description": "This program uses a synchronous study methodology to train Front End Web Developers. It emphasizes challenging real projects to ensure thorough learning and mastery of essential Web Development skills. The program offers hands-on experience with various technologies and tools like HTML, CSS, JavaScript, jQuery, Ajax, JSON, APIs, and Bootstrap.",
                 "year": "2023",
-                "img": ""
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1687991944/portfolio/bootcamp-desarrollador-web-front-end.1__1_-removebg-preview_mqprhb.png"
             }
         ],
         "skills": [

@@ -2,7 +2,7 @@
   <h3>Studies</h3>
   <div class="group">
     <div class="card" *ngFor="let studie of studies">
-      <img src="https://i.postimg.cc/zvsT7QX0/icons8-gorro-de-graduaci-n-100.png" class="card-img-top" alt="..."/>
+      <img src={{studie.img}} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">{{studie.instituiton}}</h5>
         <p class="card-text titleS">{{studie.title}}</p>
