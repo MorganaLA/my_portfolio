@@ -4,11 +4,11 @@
     <div class="card" *ngFor="let studie of studies">
       <img src={{studie.img}} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">{{studie.instituiton}}</h5>
+        <h4 class="card-title">{{studie.instituiton}}</h4>
         <p class="card-text titleS">{{studie.title}}</p>
-        <h4 *ngIf="studie.description !== ''" class="desTStud">Description <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+        <h5 *ngIf="studie.description !== ''" class="desTStud">Description <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
           <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
-        </svg></h4>
+        </svg></h5>
         <div class="description">
         <p *ngIf="studie.description !== ''" class="card-text descriptionS">{{studie.description}}</p>
         </div>

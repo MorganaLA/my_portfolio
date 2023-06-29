@@ -77,6 +77,7 @@ header {
 }
 
 #about {
+    height: inherit;
     background: #ffffff38;
     width: 45%;
     padding: 2.5rem;
