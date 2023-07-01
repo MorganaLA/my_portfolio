@@ -12,8 +12,16 @@
     grid-template-columns: repeat(5, 10%);
     justify-content: space-around;
     justify-items: center;
+   }
+  .sk{
+    max-height: 15rem;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, transition-delay 0.3s;
+   }
+  .sk:hover{
+    max-height: 60rem;
+    transition: max-height 1s ease-in-out;
   }
-
   h4 {
     margin-left: 1.8rem;
     width: fit-content;

@@ -81,6 +81,13 @@
     border-radius: 0 0 15px 15px;
 }
 
+#arrow{
+    transition: all .5s ease;
+}
+.card:hover #arrow{
+    transform: rotate(-180deg);
+    transition: all .5s ease;
+}
 
 .descriptionS {
     padding: 0.5rem 1rem;
