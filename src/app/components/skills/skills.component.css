@@ -1,13 +1,24 @@
-.container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+  .skillsDiv {
+    width: fit-content;
+    background-color: #ffffffad;
+    border-radius: 25%;
   }
-  
-  .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-    width: 90%; background-color: #04AA6D;
+
+  .skillsContainer {
+    width: 100%;
+    display: grid;
+    padding: 1rem;
+    gap: 2rem 0;
+    grid-template-columns: repeat(5, 10%);
+    justify-content: space-around;
+    justify-items: center;
   }
-  
+
+  h4 {
+    margin-left: 1.8rem;
+    width: fit-content;
+    background-color: #ffffff5e;
+    font-size: 2rem;
+    border-radius: 15%;
+    padding: 1rem;
+  }

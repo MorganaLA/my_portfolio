@@ -34,94 +34,96 @@
                 "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1687991944/portfolio/bootcamp-desarrollador-web-front-end.1__1_-removebg-preview_mqprhb.png"
             }
         ],
-        "skills": [
+        "skills":
             {
                 "skill": [
                     {
                         "id": 1,
                         "name": "Git",
-                        "porcentage": ""
+                        "percentage": 90
                     },
                     {
                         "id": 2,
                         "name": "GitHub",
-                        "porcentage": ""
+                        "percentage": 95
                     },
                     {
                         "id": 3,
                         "name": "HTML5",
-                        "porcentage": ""
+                        "percentage": 100
                     },
                     {
                         "id": 4,
                         "name": "CSS",
-                        "porcentage": ""
+                        "percentage": 95
                     },
                     {
                         "id": 5,
                         "name": "Bootstrap",
-                        "porcentage": ""
+                        "percentage": 95
                     },
                     {
                         "id": 6,
                         "name": "Responsive Design",
-                        "porcentage": ""
+                        "percentage": 100
                     },
                     {
                         "id": 7,
                         "name": "JavaScript",
-                        "porcentage": ""
+                        "percentage": 80
                     },
                     {
                         "id": 8,
                         "name": "TypeScript",
-                        "porcentage": ""
+                        "percentage": 80
                     },
                     {
                         "id": 9,
                         "name": "Angular",
-                        "porcentage": ""
+                        "percentage": 85
                     },
                     {
                         "id": 10,
                         "name": "JAVA",
-                        "porcentage": ""
+                        "percentage": 75
                     },
                     {
                         "id": 11,
                         "name": "Spring Boot",
-                        "porcentage": ""
+                        "percentage": 70
                     },
                     {
                         "id": 12,
                         "name": "MySQL",
-                        "porcentage": ""
+                        "percentage": 80
                     },
                     {
                         "id": 13,
-                        "name": "Agile (SCRUM",
-                        "porcentage": ""
+                        "name": "Agile (SCRUM)",
+                        "percentage": 100
                     },
                     {
                         "id": 14,
                         "name": "Problem-Solving",
-                        "porcentage": ""
+                        "percentage": 90
                     }
                 ],
                 "lenguages": [
                     {
                         "id": 1,
                         "name": "Spanish",
-                        "level": "Native"
+                        "level": "Native",
+                        "percentage": 100
                     },
                     {
                         "id": 2,
                         "name": "English",
-                        "level": "Advanced"
+                        "level": "Advanced",
+                        "percentage": 95
                     }
                 ]
             }
-        ],
+        ,
         "projects": [
             {
                 "id": 1,
