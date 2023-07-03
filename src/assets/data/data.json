@@ -127,27 +127,39 @@
         "projects": [
             {
                 "id": 1,
-                "name": "",
-                "description": "",
+                "name": "Portfolio Web",
+                "description": "Portfolio Web, developed by Morgana Luz Alemann, showcases various web applications, websites, and other digital projects. The website serves as a platform to highlight the creator's web development skills, technical abilities, design aesthetics, and creativity. Visitors can explore the projects to gain insights into the diverse web development work showcased on the site.",
                 "technologies": "",
-                "year": "",
-                "img": ""
+                "year": "2022-2023",
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392783/portfolio/portfolio_not_logged_mbpl4o.png",
+                "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392786/portfolio/portfolio_logged_hvz3jg.png",
+                "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392832/portfolio/portfolio_responsive_aeh6k2.png",
+                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393021/portfolio/login_xmnue3.png",
+                "img5":""       
             },
             {
-                "id": 1,
-                "name": "",
-                "description": "",
+                "id": 2,
+                "name": "I-Ching",
+                "description": "This website, created in collaboration with two other individuals as part of a freelance group called I-Chill, is dedicated to exploring and studying the I Ching, also known as the Book of Changes. We aim to provide an in-depth understanding of this ancient Chinese divination system. We offer various resources, such as articles, interpretations, and online consultations, to help visitors gain insights into their journeys and make decisions based on the wisdom of the I Ching.",
                 "technologies": "",
-                "year": "",
-                "img": ""
+                "year": "2023",
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392774/portfolio/i-ching_nqecqv.png",
+                "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392793/portfolio/i-ching_monedas_phj1ig.png",
+                "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393276/i-ching_tirada_1_ejbxts.png",
+                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392832/portfolio/iching_responsive_ahgpka.png",
+                "img5":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392977/portfolio/screenshot_xpkqk8.png"  
             },
             {
-                "id": 1,
-                "name": "",
-                "description": "",
+                "id": 3,
+                "name": "Amazing Events",
+                "description": "Created as part of a Front-End bootcamp practice at MindHub, Amazing Events is a website that showcases an event planning and management company. The website provides information about the services offered by the company, including event organization, venue selection, and catering. It features a visually appealing design and presents an overview of the company's past events through captivating photos and inspiring testimonials.",
                 "technologies": "",
-                "year": "",
-                "img": ""
+                "year": "2023",
+                "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393744/screenshot_1_youh2s.png",
+                "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392742/portfolio/amazing_contact_f5rt8e.png",
+                "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392745/portfolio/amazing_stats_fgqsgw.png",
+                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392827/portfolio/amazing_responsive_gyuu11.png",
+                "img5":"" 
             }
         ]
     }

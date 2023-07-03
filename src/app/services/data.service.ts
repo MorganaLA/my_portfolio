@@ -10,10 +10,13 @@ export class DataService {
   constructor(private http:HttpClient) { }
 
   public studies():Observable<any>{
-    return this.http.get("assets/data.json")
+    return this.http.get("assets/data/data.json")
   }
   public skills():Observable<any>{
-    return this.http.get("assets/data.json")
+    return this.http.get("assets/data/data.json")
+  }
+  public projects():Observable<any>{
+    return this.http.get("assets/data/data.json")
   }
   
 }
