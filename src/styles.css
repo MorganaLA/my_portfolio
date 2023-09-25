@@ -10,8 +10,9 @@
 body {
   width: 100%;
   height: 100%;
-  background-image: url(https://i.postimg.cc/J4kVQq6j/Picsart-22-09-10-18-04-24-266-1.jpg);
-  background-size: cover;
+  background-image: url(https://i.postimg.cc/rw5MMC7h/Picsart-22-09-10-18-03-18-834.jpg);
+  background-size: contain;
+  transfrom: rotate(90deg);
 }
 
 h3 {
