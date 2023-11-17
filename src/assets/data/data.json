@@ -34,96 +34,92 @@
                 "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1687991944/portfolio/bootcamp-desarrollador-web-front-end.1__1_-removebg-preview_mqprhb.png"
             }
         ],
-        "skills":
-            {
-                "skill": [
-                    {
-                        "id": 1,
-                        "name": "Git",
-                        "percentage": 90
-                    },
-                    {
-                        "id": 2,
-                        "name": "GitHub",
-                        "percentage": 95
-                    },
-                    {
-                        "id": 3,
-                        "name": "HTML5",
-                        "percentage": 100
-                    },
-                    {
-                        "id": 4,
-                        "name": "CSS",
-                        "percentage": 95
-                    },
-                    {
-                        "id": 5,
-                        "name": "Bootstrap",
-                        "percentage": 95
-                    },
-                    {
-                        "id": 6,
-                        "name": "Responsive Design",
-                        "percentage": 100
-                    },
-                    {
-                        "id": 7,
-                        "name": "JavaScript",
-                        "percentage": 80
-                    },
-                    {
-                        "id": 8,
-                        "name": "TypeScript",
-                        "percentage": 80
-                    },
-                    {
-                        "id": 9,
-                        "name": "Angular",
-                        "percentage": 85
-                    },
-                    {
-                        "id": 10,
-                        "name": "JAVA",
-                        "percentage": 75
-                    },
-                    {
-                        "id": 11,
-                        "name": "Spring Boot",
-                        "percentage": 70
-                    },
-                    {
-                        "id": 12,
-                        "name": "MySQL",
-                        "percentage": 80
-                    },
-                    {
-                        "id": 13,
-                        "name": "Agile (SCRUM)",
-                        "percentage": 100
-                    },
-                    {
-                        "id": 14,
-                        "name": "Problem-Solving",
-                        "percentage": 90
-                    }
-                ],
-                "lenguages": [
-                    {
-                        "id": 1,
-                        "name": "Spanish",
-                        "level": "Native",
-                        "percentage": 100
-                    },
-                    {
-                        "id": 2,
-                        "name": "English",
-                        "level": "Advanced",
-                        "percentage": 95
-                    }
-                ]
-            }
-        ,
+        "skills": {
+            "hard": [
+                {
+                    "id": 1,
+                    "name": "React"
+                },
+                {
+                    "id": 2,
+                    "name": "Angular"
+                },
+                {
+                    "id": 3,
+                    "name": "Bootstrap"
+                },
+                {
+                    "id": 4,
+                    "name": "Tailwind"
+                },
+                {
+                    "id": 5,
+                    "name": "JavaScript"
+                },
+                {
+                    "id": 6,
+                    "name": "TypeScript"
+                },
+                {
+                    "id": 7,
+                    "name": "Git"
+                },
+                {
+                    "id": 8,
+                    "name": "GitHub"
+                },
+                {
+                    "id": 9,
+                    "name": "HTML5"
+                },
+                {
+                    "id": 10,
+                    "name": "CSS"
+                },
+                {
+                    "id": 11,
+                    "name": "JAVA"
+                },
+                {
+                    "id": 12,
+                    "name": "Spring Boot"
+                },
+                {
+                    "id": 13,
+                    "name": "MongoDB"
+                },
+                {
+                    "id": 14,
+                    "name": "MySQL"
+                },
+                {
+                    "id": 15,
+                    "name": "Agile (SCRUM)"
+                },
+                {
+                    "id": 16,
+                    "name": "Responsive Design"
+                }          
+            ],
+            "soft":[
+                {
+                    "id": 1,
+                    "name": "Problem-Solving"
+                }
+            ],
+            "lenguages": [
+                {
+                    "id": 1,
+                    "name": "Spanish",
+                    "level": "Native"
+                },
+                {
+                    "id": 2,
+                    "name": "English",
+                    "level": "Advanced"
+                }
+            ]
+        },
         "projects": [
             {
                 "id": 1,
@@ -134,8 +130,8 @@
                 "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392783/portfolio/portfolio_not_logged_mbpl4o.png",
                 "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392786/portfolio/portfolio_logged_hvz3jg.png",
                 "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392832/portfolio/portfolio_responsive_aeh6k2.png",
-                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393021/portfolio/login_xmnue3.png",
-                "img5":""       
+                "img4": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393021/portfolio/login_xmnue3.png",
+                "img5": ""
             },
             {
                 "id": 2,
@@ -146,8 +142,8 @@
                 "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392774/portfolio/i-ching_nqecqv.png",
                 "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392793/portfolio/i-ching_monedas_phj1ig.png",
                 "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393276/i-ching_tirada_1_ejbxts.png",
-                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392832/portfolio/iching_responsive_ahgpka.png",
-                "img5":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392977/portfolio/screenshot_xpkqk8.png"  
+                "img4": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392832/portfolio/iching_responsive_ahgpka.png",
+                "img5": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392977/portfolio/screenshot_xpkqk8.png"
             },
             {
                 "id": 3,
@@ -158,8 +154,8 @@
                 "img": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688393744/screenshot_1_youh2s.png",
                 "img2": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392742/portfolio/amazing_contact_f5rt8e.png",
                 "img3": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392745/portfolio/amazing_stats_fgqsgw.png",
-                "img4":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392827/portfolio/amazing_responsive_gyuu11.png",
-                "img5":"" 
+                "img4": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1688392827/portfolio/amazing_responsive_gyuu11.png",
+                "img5": ""
             }
         ]
     }

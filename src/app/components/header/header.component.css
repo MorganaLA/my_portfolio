@@ -14,8 +14,11 @@ header {
     font-size: 0%;
     width: 4.5rem;
     height: 4rem;
-    background: rgb(229, 226, 235);
-    border-color: transparent;
+    background: #e6dff1dc;
+    border: 2px solid;
+    border-top-style: none;
+    border-right-style: none;
+    border-color: #891238dc;
     border-radius: 0 0 0 80%;
 }
 
@@ -31,8 +34,9 @@ header {
     font-size: 70%;
     transform-origin: top right;
     transition: all 1.5s;
-    background: rgba(231, 169, 194, 0.8);
+    background: #e8bae3DC;
     border-radius: 0 0 0 20%;
+    border-color: #1d3861dc;
     width: 4.3rem;
     height: 5rem;
 }
@@ -64,24 +68,31 @@ header {
 
 #menu > li > a {
     text-decoration: none;
-    color: rgb(65, 138, 157);
+    color: #1d3861;
     font-weight: bold;
-    -webkit-text-stroke: 0.5px rgb(29, 76, 87);
 }
 
 
+#main-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 #profilePhoto {
-    width: 19rem;
+    width: 22rem;
     border: none;
     border-radius: 100% !important;
-    margin: -1rem auto 1rem;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
 }
 
 #about {
     height: inherit;
-    background: #ffffff38;
+    background: #e6dff1dc;
     width: 45%;
     padding: 2.5rem;
     margin: auto;
@@ -122,13 +133,21 @@ header {
 }
 
 .menuImg {
-    background-color: #da6377ea;
+    background-color: #d21846e8;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     z-index: 10;
 }
-
+.menuImg:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.sIcon:hover {
+    padding-left: 0.5rem;
+    padding-top: 0.65rem;
+    padding-right: 0.1rem;
+}
 .sIcon {
     display: block;
     padding-left: 0.5rem;
@@ -141,7 +160,7 @@ header {
 
 .menu:checked+.menuImg {
     border-radius: 50%;
-    background-color: #39646ee8;
+    background-color: #3062ABe8;
     transition-duration: 0.2s;
 }
 
@@ -150,7 +169,7 @@ header {
 }
 
 .socialNet {
-    background-color: #39646e98;
+    background-color: #3062AB98;
     width: 9.6rem;
     height: 3.3rem;
     margin-left: -1.5rem;

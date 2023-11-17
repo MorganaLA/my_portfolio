@@ -1,32 +1,75 @@
-  .skillsDiv {
-    width: fit-content;
-    background-color: #ffffffad;
-    border-radius: 25%;
-  }
+   #allSkillContainer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 2rem;
+    margin: 0 auto;
+   }
+   .skillsContainer {
+    display: flex;
+    width: 33%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+   }
 
-  .skillsContainer {
-    width: 100%;
+   #hS, #sS, #sL{
+    background-color: #e6dff1dc;
+    padding: 1.7rem;
+    width: 100%;  
+    border-radius: 10%;
+   }
+
+   #sS, #sL{
     display: grid;
-    padding: 1rem;
-    gap: 2rem 0;
-    grid-template-columns: repeat(5, 10%);
-    justify-content: space-around;
+    grid-template-columns: 2fr 50%;
     justify-items: center;
+    justify-content: center;
+    align-items: center;
    }
-  .sk{
-    max-height: 15rem;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out, transition-delay 0.3s;
+   #hS {
+    display: grid;
+    grid-template-columns: 2fr 50%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
    }
-  .sk:hover{
-    max-height: 60rem;
-    transition: max-height 1s ease-in-out;
-  }
+
+   .skillsDiv{
+    text-align: center;
+    background-color: #e6dff1dc;
+    width: 95%;
+    margin: 0.5rem;
+    border-radius: 30%;
+    padding: 1px;
+   }
+
+   .skillN{ 
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.2rem;
+    display: flex;
+    justify-content: center;
+   }
   h4 {
+    background-color: #e6dff1dc;
+    color: #891238;
+    font-weight: 600;
     margin-left: 1.8rem;
     width: fit-content;
-    background-color: #ffffff5e;
     font-size: 2rem;
+    border-radius: 20%;
+    padding: 1rem;
+  }
+
+  h5 {
+    background-color: #e6dff1dc;
+    color: #891238;
+    font-weight: 600;
+    width: fit-content;
+    font-size: 1.8rem;
     border-radius: 15%;
     padding: 1rem;
   }

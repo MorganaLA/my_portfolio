@@ -7,8 +7,9 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  skillss: any;
-  lenguages: any
+  hards: any;
+  softs: any;
+  lenguages: any;
   constructor(private data: DataService) { }
 
   ngOnInit() {
@@ -18,7 +19,8 @@ export class SkillsComponent {
   getData() {
     this.data.skills().subscribe(
       response => {
-        this.skillss = response.data.skills.skill,
+        this.hards = response.data.skills.hard,
+        this.softs = response.data.skills.soft,
         this.lenguages = response.data.skills.lenguages
       },
       error => { console.log(error) }

@@ -1,71 +1,36 @@
 <section id="skillsSection">
-  <h3 id="skillsH">Skills</h3>    
-  <h4>Hard Skills & Soft Skills</h4>
-  <div class="skillsContainer sk">
-    <div class="skillsDiv" *ngFor="let skill of skillss">
-      <circle-progress
-        [percent]="skill.percentage"
-        [maxPercent]="100"
-        [title]="skill.name"
-        [titleFontSize]="'20'"
-        [titleFontWeight]="'bold'"
-        [showUnits]="false"
-        [subtitle]="skill.percentage + '%'"
-        [subtitleFontSize]="'20'"
-        [subtitleFontWeight]="'bold'"
-        [toFixed]="0"
-        [space]="-18"
-        [clockwise]="false"
-        [outerStrokeWidth]="18"
-        [showInnerStroke]="true"
-        [showZeroOuterStroke]="true"
-        [outerStrokeLinecap]="'round'"
-        [innerStrokeWidth]="18"
-        [innerStrokeColor]="'#39646e3d'"
-        [outerStrokeGradient]="true"
-        [outerStrokeColor]="'rgb(247, 166, 204)'"
-        [outerStrokeGradientStopColor]="'rgb(75, 138, 156)'"
-        [backgroundStrokeWidth]="0"
-        [animation]="true"
-        [animationDuration]="1000"
-        [radius]="85"
-        [subtitleColor]="'#39646e'"
-      ></circle-progress>
-      </div>
-  </div>
-    <br>
-    <h4>Lenguages</h4>
+  <h3 id="skillsH">Hard Skills & Soft Skills</h3>
+  <div id="allSkillContainer">
     <div class="skillsContainer">
+        <h5>Hard Skills</h5>
+        <div id="hS">
+        <div class="skillsDiv" *ngFor="let hskill of hards">
+          <p class="skillN">
+            <strong>{{ hskill.name }} </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="skillsContainer">   
+        <h5>Soft Skills</h5>
+        <div id="sS">
+        <div class="skillsDiv" *ngFor="let sskill of softs">
+          <p class="skillN">
+            <strong>{{ sskill.name }} </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="skillsContainer">
+      <h5>Lenguages</h5>
+      <div id="sL">
       <div class="skillsDiv" *ngFor="let lenguage of lenguages">
-      <circle-progress
-        [percent]="lenguage.percentage"
-        [maxPercent]="100"
-        [title]="lenguage.name"
-        [titleFontSize]="'20'"
-        [titleFontWeight]="'bold'"
-        [showUnits]="false"
-        [subtitle]="lenguage.level"
-        [subtitleFontSize]="'20'"
-        [subtitleFontWeight]="'bold'"
-        [toFixed]="0"
-        [space]="-18"
-        [clockwise]="false"
-        [outerStrokeWidth]="18"
-        [showInnerStroke]="true"
-        [showZeroOuterStroke]="true"
-        [outerStrokeLinecap]="'round'"
-        [innerStrokeWidth]="18"
-        [innerStrokeColor]="'#39646e3d'"
-        [outerStrokeGradient]="true"
-        [outerStrokeColor]="'rgb(247, 166, 204)'"
-        [outerStrokeGradientStopColor]="'rgb(75, 138, 156)'"
-        [backgroundStrokeWidth]="0"
-        [animation]="true"
-        [animationDuration]="1000"
-        [radius]="85"
-        [subtitleColor]="'#39646e'"
-      ></circle-progress>
+        <p class="skillN">
+          <strong>{{ lenguage.name }} </strong>
+        </p>
+      </div>
+    </div>
     </div>
   </div>
-  
 </section>
